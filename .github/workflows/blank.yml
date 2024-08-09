@@ -37,7 +37,7 @@ jobs:
 
       # 4. Выполнение Python скрипта
       - name: Run Python script
-        run: resolve-dns-nxdomain.py
+        run: python resolve-dns-nxdomain.py
 
       - name: Upload output file
         uses: actions/upload-artifact@v3
